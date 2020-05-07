@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instagram - clone</title>
+        <meta name="author" content="">
+        <meta name="robots" content="index, follow"> 
+        <meta name="keywords" content=""> 
+        <meta name="description" content="">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <a href=""><img src="img/logo.png" alt="Instagram" title="Instagram" width="130px"></a>
+                </div>
+
+                <div class="header__search">
+                    <div class="header__search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" name="busca" placeholder="Pesquisar...">
+                    </div>
+                </div>
+
+                <div class="header__icons">
+                    <a href=""><i class="far fa-bell"></i></a>
+                    <a href=""><i class="far fa-heart"></i></a>
+                    <div class="header__foto-perfil" style="background-image: url('img/foto.jpg');"></div>
+                </div>
+            </div><!--container-->
+        </header><!--header-->
+
+        <section class="perfil">
+            <div class="container">
+                <div class="perfil__img">
+                    <div class="perfil__img-box" style="background-image: url('img/foto.jpg'); text-align: center;"></div>
+                </div>
+
+                <div class="perfil__texto">
+                    <div class="perfil__texto-nome">
+                        <span>Emanuel Lima</span>
+                        <a href="#">Editar perfil</a>
+                        <a href="#"><i class="fas fa-cog"></i></a>
+                    </div>
+                </div>
+
+                <div class="perfil__info">
+                    <p><b>300</b> publicações</p>
+                    <p><b>10,2mil</b> seguidores</p>
+                    <p><b>100</b> seguindo</p>
+                </div>
+
+                <div class="perfil__descricao">
+                    <h3>Emanuel Lima</h3>
+                    <p>
+                        Estudante de Sistemas de informação
+                    </p>
+                    <p>
+                        Frontend Developer
+                    </p>
+                    <p>
+                        Enxadrista nas horas vagas
+                    </p>
+                </div>
+            </div><!--container-->
+        </section><!--perfil-->
+
+        <section class="feed">
+            <div class="container">
+                <div class="feed__container">
+                    <div class="feed__box" aba="publicacoes">
+                        <div class="feed__box-line" style="display: block;"></div>
+                        <p style="font-weight: bold;">publicações</p>
+                    </div>
+                    <div class="feed__box" aba="igtv">
+                        <div class="feed__box-line" style="width: 37px;"></div>
+                        <p>igtv</p>
+                    </div>
+                    <div class="feed__box" aba="salvos">
+                        <div class="feed__box-line" style="width: 55px;"></div>
+                        <p>salvos</p>
+                    </div>
+                    <div class="feed__box" aba="marcacao">
+                        <div class="feed__box-line" style="width: 88px;"></div>
+                        <p>marcação</p>
+                    </div>
+                </div>
+            </div><!--container-->
+        </section><!--feed-->
+
+        <section id="publicacoes">
+            <div class="container"> 
+                <div class="publicacoes__box">
+                    <div style="background-image: url('img/imagem01.jpeg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem01.jpeg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem01.jpeg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem01.jpeg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem01.jpeg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem01.jpeg');" class="publicacoes__box-single"></div>
+                </div>
+            </div>
+        </section>
+        <div class="clear"></div>
+        <section id="igtv" style="display: none;">
+            <div class="container"> 
+                <div class="publicacoes__box">
+                    <div style="background-image: url('img/imagem02.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem02.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem02.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem02.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem02.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem02.jpg');" class="publicacoes__box-single"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="salvos">
+            <div class="container"> 
+                <div class="publicacoes__box">
+                    <div style="background-image: url('img/imagem03.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem03.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem03.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem03.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem03.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem03.jpg');" class="publicacoes__box-single"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="marcacao">
+            <div class="container"> 
+                <div class="publicacoes__box">
+                    <div style="background-image: url('img/imagem04.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem04.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem04.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem04.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem04.jpg');" class="publicacoes__box-single"></div>
+                    <div style="background-image: url('img/imagem04.jpg');" class="publicacoes__box-single"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--Script-->
+        <script src="js/script.js"></script>
+    </body>
+</html>
